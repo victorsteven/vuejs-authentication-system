@@ -74,7 +74,7 @@ import config from '@/config';
             },
             createArticle(){
 
-                if(!this.title || !this.content || !this.image || this.category){
+                if(!this.title || !this.content || !this.image || !this.category){
                     this.$noty.error('Please fill in all fields')
                     return;
                 }
